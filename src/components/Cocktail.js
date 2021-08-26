@@ -11,10 +11,10 @@ const Cocktail = ({ id, image, glass, name, info }) => {
         <h3>{name}</h3>
         <h4>{glass}</h4>
         <p>{info}</p>
+        <Link to={`/cocktail/${id}`} className='btn'>
+          Details
+        </Link>
       </div>
-      <Link to={`/cocktail/${id}`} className='btn'>
-        Details
-      </Link>
     </article>
   )
 }

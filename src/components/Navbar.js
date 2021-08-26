@@ -7,7 +7,10 @@ const Navbar = () => {
       <div className='nav-center'>
         <div className='nav-logo'>
           <Link to='/'>
-            <h2>The CocktailDB</h2>
+            <h2>
+              The <span className='nav-style'>Cocktail</span>.
+              <span style={{ fontSize: '18px' }}>DB</span>
+            </h2>
           </Link>
         </div>
 
